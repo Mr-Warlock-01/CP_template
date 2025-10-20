@@ -13,8 +13,8 @@ ll log_base_n(double n, double b){return (ll)(log2(n)/log2(b));}
 //int lastbit(int n){bitset<64>x(n); for(int i=63; i>=0; i--)if(x[i]==1)return i; return 0;}
 
 
-
 int BigMul(int a,int b, int M){int x=0; int y=a%M;while(b){if(b%2==1){x=(x+y)%M;}y=(y+y)%M;b/=2;}return x;}
+
 /////////////////
 ll powMod(ll x, ll n){ll res=1; while(n){if(n&1){res=(res*x);} x=(x*x); n>>=1;} return res;}
 ll powMod(ll x, ll n, ll M){ll res=1; while(n){if(n&1){res=(res*x)%M;} x=(x*x)%M; n>>=1;} return res;}
