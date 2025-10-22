@@ -81,7 +81,6 @@ void PrintGraph(const Dinic &dinic) {
         }
     }
 }
-
 // Initialization : Dinic *mr_warlock=new Dinic(n+1);
 // Add Edge : mr_warlock->AddEdge(a,b,c);
 // Get Max Flow : mr_warlock->GetMaxFlow(s,t);
