@@ -49,6 +49,7 @@ ll powMod(ll x, ll n, ll M){ll res=1; while(n){if(n&1){res=(res*x)%M;} x=(x*x)%M
 int p1=137, q1=277, M1=14457881;
 int p2=455, q2=541, M2=11457857;
 
+
 struct  hashing_2D{
     int arr[N][N];
     int hash_1[N][N];
