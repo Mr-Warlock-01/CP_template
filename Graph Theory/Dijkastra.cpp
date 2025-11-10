@@ -1,27 +1,27 @@
 ///Dijkastra		//Dijkastra			//Dijkastra			//Dijkastra
 
 vector<int>graph[N];
-int cost[N];
+int main_cost[N];
 
 //set cost to LLMAX
+for(int i=0; i<N; i++){main_cost[i]=LLMax;}
 
 void dijkastra(){
     priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>>pq;
-    //weight,node
-    pq.push({0,1});
-    cost[1]=0;
+    //cost,node
+
+    main_cost[source]=0;
+    pq.push({0,source});
+
     while(!pq.empty()){
-        int dis=pq.top().ff;
-        int node=pq.top().ss;
-        int new_dis=dis+1;
+        auto [cost, node]=pq.top();
         pq.pop();
- 
-        if(dis!=cost[node]){continue;}
-        
-        for(auto u: graph[node]){
-            if(cost[0][u]>new_dis){
-                cost[0][u]=new_dis;
-                pq.push({new_dis,u});
+        if(cost!=main_cost[node]){continue;}
+        for(auto [u,w]: graph[node]){
+            int new_cost=cost+w;
+            if(main_cost[u]>new_cost){
+                main_cost[u]=new_cost;
+                pq.push({new_cost,u});
             }
         }
     }
