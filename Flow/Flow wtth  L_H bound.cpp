@@ -96,7 +96,7 @@ struct LR_Flow {
    }
    int max_flow(int _s, int _t) { //-1 means flow is not feasible
         int mx = 1e9;
-        int ans = -1, l = 0, r = mx;
+        int ans = -1, l = 0, r = mx;        //l=-mx
         while (l <= r) {
             int mid = l + r >> 1;
             if (feasible(_s, _t, mid, mx)) ans = mid, l = mid + 1;
@@ -106,7 +106,7 @@ struct LR_Flow {
    }   
    int min_flow(int _s, int _t) { //-1 means flow is not feasible
         int mx = 1e9;
-        int ans = -1, l = 0, r = mx;
+        int ans = -1, l = 0, r = mx;        //l=-mx
         while (l <= r) {
             int mid = l + r >> 1;
             if (feasible(_s, _t, 0, mid)) ans = mid, r = mid - 1;
@@ -119,8 +119,11 @@ struct LR_Flow {
 
 
 //inistialize:  LR_Flow mr_warlock(n+1);
-//Edge:         mr_warlock.AddEdge(u,v,l,h,idx);
+//Edge:         mr_warlock.AddEdge(u,v,l,h,idx); + ans[i]=l;
 //ans:          mr_warlock.feasible();
 //    for(int i=1; i<=m; i++){
 //        ans[i]+=mr_warlock.F.flow_through[i];
 //    }
+
+
+//https://codeforces.com/gym/100199/attachments   (B)
