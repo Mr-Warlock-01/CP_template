@@ -36,7 +36,7 @@ int find_lac(int a, int b){
 }
 
 int find_nth_parent(int x, int n){
-    while(n){
+    while(n>0){
         int z=log2(n);
         n-=(1<<z);
         x=LCA[z][x];
