@@ -1,6 +1,4 @@
-///Trie         //Trie          //Trie          //Trie          //Trie          //Trie          //Trie          //Trie
-
-//Trie shamin;    Intialize in main function
+//Trie
 const int N = 10; // change here
 const char base_char = '0';  // change here
 
@@ -12,7 +10,6 @@ struct TrieNode {
         for(int i=0; i<N; i++){ nxt[i] = NULL;}
     }
 } *root;
-
 
 struct Trie{
     TrieNode *root;
@@ -73,3 +70,6 @@ struct Trie{
     return;
     }
 };
+
+//main function
+    /*Trie root;*/

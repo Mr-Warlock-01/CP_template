@@ -1,6 +1,4 @@
-///Binary Index Tree            //Binary Index Tree             //Binary Index Tree     
-
-
+//Binary Index Tree
 int BIT[2][N];
 
 int sum(int cs, int indx){

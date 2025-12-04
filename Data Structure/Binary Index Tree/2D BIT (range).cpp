@@ -1,6 +1,4 @@
-///2D Binary Index Tree(range)          //2D Binary Index Tree(range)
-
-
+///2D Binary Index Tree(range)
 struct BIT2D{
     ll tree[4][N][N];
     BIT2D() {memset(tree,0,sizeof(tree));}

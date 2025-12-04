@@ -1,5 +1,4 @@
-///2D BIT(point) 		//2D BIT(point) 		//2D BIT(point) 		//2D BIT(point) 
-
+//2D BIT(point)
 const int N=2502;
 
 struct BIT2D{

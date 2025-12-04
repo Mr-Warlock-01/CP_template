@@ -1,4 +1,4 @@
-///Edular MOD 		////Edular MOD 		//Edular MOD  	
+//Edular MOD
 
 inline ll eular_MOD(ll x, ll m) {
     if(x<m){return x;}

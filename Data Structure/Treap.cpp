@@ -1,6 +1,4 @@
-///Treap        //Treap        //Treap        //Treap        //Treap        //Treap        //Treap        
-
-
+//Treap
 mt19937 rnd(chrono::steady_clock::now().time_since_epoch().count());
 
 struct node{
@@ -156,4 +154,3 @@ void output(pnode t){
     pnode root=nullptr;
     merge(root,root, new node(354)); //inserting 
     */
-  

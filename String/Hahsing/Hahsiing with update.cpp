@@ -5,9 +5,6 @@ const int B2= 277;
 const int M1= 14457881;
 const int M2= 11457857;
 
-
-
-
 struct node{
     int l_hash1, l_hash2, r_hash1, r_hash2;
 }tree[4*N];

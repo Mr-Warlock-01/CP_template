@@ -1,13 +1,10 @@
-///SSC			//SSC 			//SSC 			//SSC 
-
-
+//SSC
 vector<int>graph[N];
 vector<int>rev_graph[N];
 bool vis[N];
 int parent[N];
 stack<int>st;
 vector<int>new_graph[N];
-
 
 void dfs(int x){
     vis[x]=1;

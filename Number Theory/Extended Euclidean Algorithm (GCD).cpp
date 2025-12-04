@@ -1,5 +1,4 @@
-///Extended Euclidean Algorithm (GCD)       //Extended Euclidean Algorithm (GCD)        //Extended Euclidean Algorithm (GCD)
-
+//Extended Euclidean Algorithm (GCD)
 ll educidean_algo(ll a, ll b, ll &x, ll &y){
     if(b==0){x=1; y=0; return a;}
     ll x1,y1;

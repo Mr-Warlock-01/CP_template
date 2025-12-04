@@ -1,5 +1,4 @@
-//Matrix Chain Multiplication       //Matrix Chain Multiplication       //Matrix Chain Multiplication
-
+//Matrix Chain Multiplication
 const int N=100;
 int arr[N];
 int dp[N][N];

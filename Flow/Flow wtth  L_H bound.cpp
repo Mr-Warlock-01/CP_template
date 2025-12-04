@@ -1,6 +1,4 @@
-///Flow wtth  L_H bound         //Flow wtth  L_H bound          //Flow wtth  L_H bound          //Flow wtth  L_H bound      
-
-
+//Flow wtth  L_H bound
 const long long inf = 1LL << 61;
 
 struct Dinic {

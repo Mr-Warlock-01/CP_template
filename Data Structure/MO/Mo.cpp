@@ -1,5 +1,4 @@
-///Mo's Algorithm			//Mo's Algorithm			//Mo's Algorithm			//Mo's Algorithm
-
+//Mo's Algorithm
 //const int N=100;
 //const int block_sz = sqrt(N);
 
@@ -50,5 +49,4 @@ int cur_r = -1;
         }
         ans[indx]=res;
     }
-    */
-
+*/

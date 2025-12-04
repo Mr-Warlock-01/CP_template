@@ -1,5 +1,4 @@
-///segment tree     //segment tree      //segment tree      //segment tree      //segment tree
-
+//segment tree
 int arr[N];
 int treee[4*N];
 

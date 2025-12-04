@@ -1,5 +1,4 @@
-///lazy tree        //lazy tree     //lazy tree     //lazy tree     //lazy tree     //lazy tree       //lazy tree
-
+//lazy tree
 int arr[N];
 int treee[4*N];
 int lazy[4*N];

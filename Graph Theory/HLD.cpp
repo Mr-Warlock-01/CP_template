@@ -1,4 +1,4 @@
-///HLD 			//HLD			//HLD			//HLD
+//HLD
 
 //LCS
 int LCA[log_N][N];
@@ -12,7 +12,6 @@ int out[N];
 int euler_arr[N];
 
 int timer=0;
-
 
 void dfs(int x, int par, int lev){
     level[x]=lev;
@@ -58,7 +57,6 @@ int query_path(int u,int v){
     res-=query_chain(par,par);
     return res;
 }
-
 
 //build
 //dfs(1,-1, 0);

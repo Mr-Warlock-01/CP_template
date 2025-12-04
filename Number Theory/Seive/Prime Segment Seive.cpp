@@ -1,4 +1,4 @@
-///segment sieve         //segment sieve         //segment sieve         //segment sieve         //segment sieve
+//segment sieve
 
     int l,r;    cin>>l>>r;
     if(l==1){l++;}

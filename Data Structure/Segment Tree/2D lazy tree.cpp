@@ -1,5 +1,4 @@
-///2D lazy tree         //2D lazy tree          //2D lazy tree      //2D lazy tree
-
+//2D lazy tree
 const int N_MAX=4*52;    //4*node_need
 
 struct segtree_y {

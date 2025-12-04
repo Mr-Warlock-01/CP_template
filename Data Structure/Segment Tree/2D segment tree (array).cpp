@@ -1,4 +1,4 @@
-//2D segment tree       2D segment tree         2D segment tree         2D segment tree         2D segment tree     
+//2D segment tree
 //only call x
 
 int arr[N][N];
@@ -73,4 +73,4 @@ void update_x(int node_x, int st_x, int en_x, int node_y, int st_y, int en_y, in
         else{    update_x(2*node_x+1, mid_x+1, en_x, node_y, st_y, en_y, x, y, val);}
     }
     update_y(node_x, st_x, en_x, node_y, st_y, en_y, x, y, val);
-}   
+}

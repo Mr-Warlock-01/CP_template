@@ -4,7 +4,6 @@ const int M=1e9+7;
 
 using Matrix = array<array<ll, N>, N>;
 
-
 Matrix matrix_mul(Matrix &A, Matrix &B, int M_sz) {
     Matrix res = {};
     for(int i=0; i<M_sz; i++){
@@ -31,13 +30,12 @@ Matrix matrix_pow(Matrix mat, int n, int M_sz) {
 
 
 //-----------in main-----------------
-		Matrix Seq={{}};
-		Matrix Pat={{}};  //need only [0][N] size
-		////build Seq
-		//for(int i=0; i<(d-1); i++){Seq[i+1][i]=1;}
-		//for(int i=0; i<d; i++){Seq[0][i]=a[i]%M;}
-		//for(int i=0; i<d; i++){Pat[d-i-1][0]=f[i]%M;}
-
-		Seq = matrix_pow(Seq, n-1, sz);
-		Matrix res = matrix_mul(Seq, Pat, sz);
-		cout<<res[0][0]<<endl;
+	Matrix Seq={{}};
+	Matrix Pat={{}};  //need only [0][N] size
+	////build Seq
+	//for(int i=0; i<(d-1); i++){Seq[i+1][i]=1;}
+	//for(int i=0; i<d; i++){Seq[0][i]=a[i]%M;}
+	//for(int i=0; i<d; i++){Pat[d-i-1][0]=f[i]%M;}
+	Seq = matrix_pow(Seq, n-1, sz);
+	Matrix res = matrix_mul(Seq, Pat, sz);
+	cout<<res[0][0]<<endl;

@@ -1,4 +1,4 @@
-///KMP          //KMP           //KMP           //KMP           //KMP
+//KMP
 
 //const int N=1e6+6;
 int lps[N];     //need 0 to n-1 indexces

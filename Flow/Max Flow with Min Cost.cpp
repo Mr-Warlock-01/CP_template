@@ -1,5 +1,4 @@
-///Max Flow with Min Cost			//Max Flow with Min Cost			//Max Flow with Min Cost
-
+//Max Flow with Min Cost
 typedef long long T1;//for cost
 typedef long long T2;//for flow
 const int maxn = 20100;
@@ -119,7 +118,3 @@ struct MCMF {//0-indexed
         return {tot_cost,tot_flow};
     }
 */
-
-
-
-

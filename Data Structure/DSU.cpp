@@ -1,5 +1,4 @@
-///DSU       //DSU      //DSU       //DSU       //DSU       //DSU
-
+//DSU
 int parent[N];
 int dsu_size[N];
 

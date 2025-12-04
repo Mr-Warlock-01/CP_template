@@ -1,5 +1,4 @@
-///Articulation Point       //Articulation Point        //Articulation Point        //Articulation Point
-
+//Articulation Point
 vector<int>graph[N];
 bool visit[N];
 bool point[N];      //1=articulation point, 0=not

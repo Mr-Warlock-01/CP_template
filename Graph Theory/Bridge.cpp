@@ -1,12 +1,9 @@
-///Bridge           //Bridge            //Bridge            //Bridge
-
+//Bridge
 vector<int>graph[N];
 bool vis[N];
 int in[N];
 int low[N];
-
 vector<pair<int,int>>ans;       // bridges (u,v);
-
 int timer=0;
 
 void bridge_find(int x, int p){
@@ -29,5 +26,3 @@ void bridge_find(int x, int p){
     }
 return;
 }
-
-

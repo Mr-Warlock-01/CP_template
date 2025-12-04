@@ -1,9 +1,6 @@
-///LCA       //LCA      //LCA       //LCA       //LCA       //LCA       //LCA       //LCA       //LCA       //LCA
-
-
+//LCA
 int LCA[log_N+1][N];
 int level[N];
-
 
 //initialize the whole LCA with -1 in start
 void lca_generate(){  

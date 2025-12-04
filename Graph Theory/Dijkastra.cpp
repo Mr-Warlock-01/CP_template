@@ -1,5 +1,4 @@
-///Dijkastra		//Dijkastra			//Dijkastra			//Dijkastra
-
+//Dijkastra
 vector<int>graph[N];
 int main_cost[N];
 

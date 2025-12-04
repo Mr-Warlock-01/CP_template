@@ -1,4 +1,4 @@
-///3D MO		//3D MO			//3D MO			//3D MO				//3D MO
+//MO with update
 const int N=1e5+7;
 const int block_sz=2200;   // n/cbrt(n); (2*n*n)^(1/3) works better
 
@@ -93,6 +93,4 @@ void adjust(ll idx, int val){
         while(freq[res]>0){res++;}
         ans[queries[i].idx]=res;
     }
-
 */
-

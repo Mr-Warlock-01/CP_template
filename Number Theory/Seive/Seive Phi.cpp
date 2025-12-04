@@ -1,5 +1,4 @@
-///Seive phi        //Seive Phi        //Seive Phi        //Seive Phi        //Seive Phi        //Seive Phi        //Seive Phi
-
+//Seive phi
 int phi[N+1];
 void phi_1_to_N() {
     for (int i=0; i<=N; i++){

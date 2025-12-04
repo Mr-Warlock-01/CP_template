@@ -1,5 +1,4 @@
-///Miller Rabin Primality Test          //Miller Rabin Primality Test       //Miller Rabin Primality Test       //Miller Rabin Primality Test
-
+//Miller Rabin Primality Test
 bool is_composite(int x, int a, int d, int s){
     int z=powMod(a, d, x);
     if(z==1 || z==(x-1)){return 0;}

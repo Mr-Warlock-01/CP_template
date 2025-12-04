@@ -1,5 +1,4 @@
-///Prime Seive          //Prime Seive           //Prime Seive
-
+//Prime Seive
 const int N=1e7+2;
 vector<int>prime;
  
@@ -21,5 +20,4 @@ void prime_gen(){
             prime.pb(i);
         }
     }
-
 }

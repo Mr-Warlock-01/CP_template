@@ -1,4 +1,4 @@
-///Max Flow 		//Max Flow 		//Max Flow 		//Max Flow 		//Max Flow 		//Max Flow 		
+//Max Flow
 
 // Manual :
 // Just Create an object of Dinic with number of total nodes
@@ -85,4 +85,3 @@ void PrintGraph(const Dinic &dinic) {
 // Add Edge : mr_warlock->AddEdge(a,b,c);
 // Get Max Flow : mr_warlock->GetMaxFlow(s,t);
 // delete (mr_warlock);
-

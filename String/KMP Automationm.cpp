@@ -1,5 +1,4 @@
-///KMP automation       //KMP automation        //KMP automation        //KMP automation 
-
+//KMP automation
 int aut[N][26];
 
 vector<int>build_lps(string pat){

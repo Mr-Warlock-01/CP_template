@@ -1,5 +1,4 @@
-//Cycle Detection       Cycle Detection
-
+//Cycle Detection
 bool cycle=0;
  
 void cycle_check(int x){

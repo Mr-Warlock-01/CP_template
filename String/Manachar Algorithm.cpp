@@ -1,4 +1,4 @@
-///Manachar Algorithm   //Manachar Algorithm    //Manachar Algorithm    //Manachar Algorithm    //Manachar Algorithm    //Manachar Algorithm
+///Manachar Algorithm
 
 int p[N];      //need first 2N+1 index
 //vector<int>p((2*N)+1);

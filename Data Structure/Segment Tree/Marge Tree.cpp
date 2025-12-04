@@ -1,5 +1,4 @@
-///merge tree       //merge tree        //merge tree        //merge tree        //merge tree        //merge tree
-
+//merge tree
 int arr[N];
 vector<int>m_tree[4*N];
 

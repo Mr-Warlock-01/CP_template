@@ -1,13 +1,10 @@
-///Min Spamming Tree            //Min Spamming Tree             //Min Spamming Tree
-
+//Min Spamming Tree
 vector<pair<int,int>>graph[N];
 pair<int,pair<int,int>>edge[N];
 
 int parent[N];
 int dsu_size[N];
-
 int n,m;    
-
 
 int find_set(int x){
     if(x==parent[x]){return x;}
@@ -32,7 +29,6 @@ void min_spanning_tree(){
         }
     }
 }
-
 
 void clr(){
     for(int i=0; i<=(n+3); i++){

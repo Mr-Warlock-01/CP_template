@@ -1,4 +1,4 @@
-///2D Hashing           //2D Hashing           //2D Hashing           //2D Hashing           //2D Hashing           //2D Hashing
+//2D Hashing
 
 ll powMod(ll x, ll n, ll M){ll res=1; while(n){if(n&1){res=(res*x)%M;} x=(x*x)%M; n>>=1;} return res;}
 
