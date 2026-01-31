@@ -11,7 +11,14 @@ struct custom_hash {
     size_t operator()(pair<uint64_t, uint64_t>x) const { 
         static const uint64_t FIXED_RANDOM = chrono::steady_clock::now().time_since_epoch().count(); 
         return splitmix64(x.first+FIXED_RANDOM)^(splitmix64(x.second+FIXED_RANDOM)>>1); 
-    } 
+    }
+    /*size_t operator()(const pair<uint64_t, pair<uint64_t,uint64_t>>& x) const {
+        static const uint64_t FIXED_RANDOM = chrono::steady_clock::now().time_since_epoch().count();
+        uint64_t h1 = splitmix64(x.first + FIXED_RANDOM);
+        uint64_t h2 = splitmix64(x.second.first + FIXED_RANDOM);
+        uint64_t h3 = splitmix64(x.second.second + FIXED_RANDOM);
+        return h1 ^ (h2 >> 1) ^ (h3 << 1);
+    }*/
     size_t operator()(const string& str) const{
         static const uint64_t FIXED_RANDOM = chrono::steady_clock::now().time_since_epoch().count();
         uint64_t hash = FIXED_RANDOM;
