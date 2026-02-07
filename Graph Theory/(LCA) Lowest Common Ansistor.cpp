@@ -41,3 +41,8 @@ int find_nth_parent(int x, int n){
     }
     return x;
 }
+
+int find_dis(int a, int b){
+    int p=find_lac(a,b);
+    return level[a]+level[b]-(2*level[p]);
+}
