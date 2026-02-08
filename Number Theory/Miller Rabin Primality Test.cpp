@@ -1,4 +1,7 @@
 //Miller Rabin Primality Test
+
+ll powMod(ll x, ll n, ll M){ll res=1; while(n){if(n&1){res=(res*x)%M;} x=(x*x)%M; n>>=1;} return res;}
+
 bool is_composite(int x, int a, int d, int s){
     int z=powMod(a, d, x);
     if(z==1 || z==(x-1)){return 0;}

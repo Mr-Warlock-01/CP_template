@@ -1,7 +1,7 @@
 //Prime Seive
 const int N=1e7+2;
 vector<int>prime;
- 
+
 void prime_gen(){
     bitset<N>p;
     p.set();
