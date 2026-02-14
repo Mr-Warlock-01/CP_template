@@ -1,8 +1,10 @@
 
+
 const int N=1e6+7;
+mt19937 rnd(chrono :: system_clock :: now(). time_since_epoch().count());
 vector<int>prime;
 int spf[N];
-int seq[N];
+int seq[N]; //(n^1/4)
 
 //  gen all prime and spf from 1 to N
 //  add inline mod in Miller Rabin Primality Test (if needed)
@@ -25,7 +27,7 @@ inline ll pow_mod(ll x, ll n, ll m) {
 
 ll gcd(ll a, ll b){if(b==0){return a;} else{return gcd(b,a%b);}}
 
-int pollard_rho(int n){
+int pollard_rho(int n){  //O(n^1/4)
     while(1){
         int x=rnd()%n;
         int y=x; 
